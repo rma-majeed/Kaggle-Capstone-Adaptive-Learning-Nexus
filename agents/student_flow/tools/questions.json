@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "description": "Math question bank for grades 5-8",
+    "version": "2.0",
+    "total_questions": 50,
+    "questions_per_topic": 10
+  },
+  "topics": ["Fractions", "Decimals", "Percentages", "Geometry", "Algebra"],
+  "questions": [
+    {
+      "id": "FRAC001",
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 1/2 + 1/4? Express your answer as a fraction in simplest form.",
+      "expected_answer": "3/4",
+      "hints": [
+        "To add fractions, you need a common denominator",
+        "The least common denominator of 2 and 4 is 4. Convert 1/2 to 2/4 first."
+      ]
+    },
+    {
+      "id": "FRAC002",
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 3/4 - 1/4?",
+      "expected_answer": "1/2",
+      "hints": [
+        "Since the denominators are the same, just subtract the numerators",
+        "3 - 1 = 2, so you get 2/4. Can you simplify this?"
+      ]
+    },
+    {
+      "id": "FRAC003",
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is 2/3 + 1/6? Express your answer as a fraction in simplest form.",
+      "expected_answer": "5/6",
+      "hints": [
+        "Find the LCD of 3 and 6",
+        "Convert 2/3 to sixths: 2/3 = 4/6. Now add 4/6 + 1/6"
+      ]
+    },
+    {
+      "id": "FRAC004",
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is 1/2 × 3/4?",
+      "expected_answer": "3/8",
+      "hints": [
+        "To multiply fractions, multiply the numerators together and denominators together",
+        "1 × 3 = 3 (numerator) and 2 × 4 = 8 (denominator)"
+      ]
+    },
+    {
+      "id": "FRAC005",
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "What is 3/4 ÷ 1/2?",
+      "expected_answer": "3/2",
+      "hints": [
+        "To divide fractions, multiply by the reciprocal of the second fraction",
+        "3/4 ÷ 1/2 = 3/4 × 2/1 = 6/4 = 3/2"
+      ]
+    },
+    {
+      "id": "FRAC006",
+      "topic": "Fractions",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "Simplify: 12/18",
+      "expected_answer": "2/3",
+      "hints": [
+        "Find the greatest common factor (GCF) of 12 and 18",
+        "The GCF is 6. Divide both numerator and denominator by 6"
+      ]
+    },
+    {
+      "id": "FRAC007",
+      "topic": "Fractions",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "What is 2 1/3 + 1 2/3? Express as a mixed number.",
+      "expected_answer": "4",
+      "hints": [
+        "Add the whole numbers first (2 + 1 = 3), then add the fractions",
+        "1/3 + 2/3 = 3/3 = 1. So 3 + 1 = 4"
+      ]
+    },
+    {
+      "id": "FRAC008",
+      "topic": "Fractions",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Which is larger: 2/3 or 3/5?",
+      "expected_answer": "2/3",
+      "hints": [
+        "Convert both fractions to the same denominator to compare",
+        "2/3 = 10/15 and 3/5 = 9/15. Which is larger?"
+      ]
+    },
+    {
+      "id": "FRAC009",
+      "topic": "Fractions",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "Convert 7/4 to a mixed number.",
+      "expected_answer": "1 3/4",
+      "hints": [
+        "How many times does 4 go into 7?",
+        "4 goes into 7 once with remainder 3, so it's 1 and 3/4"
+      ]
+    },
+    {
+      "id": "FRAC010",
+      "topic": "Fractions",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "What is 5/6 - 2/9? Express as a fraction in simplest form.",
+      "expected_answer": "11/18",
+      "hints": [
+        "Find the LCD of 6 and 9, which is 18",
+        "5/6 = 15/18 and 2/9 = 4/18. Now subtract: 15/18 - 4/18"
+      ]
+    },
+    {
+      "id": "DEC001",
+      "topic": "Decimals",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 0.75 + 0.25?",
+      "expected_answer": "1.0",
+      "hints": [
+        "Line up the decimal points before adding",
+        "Add column by column from right to left"
+      ]
+    },
+    {
+      "id": "DEC002",
+      "topic": "Decimals",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 2.5 + 1.3?",
+      "expected_answer": "3.8",
+      "hints": [
+        "Add the decimal parts: 0.5 + 0.3 = 0.8",
+        "Add the whole parts: 2 + 1 = 3. So the answer is 3.8"
+      ]
+    },
+    {
+      "id": "DEC003",
+      "topic": "Decimals",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 5.0 - 2.7?",
+      "expected_answer": "2.3",
+      "hints": [
+        "You may need to borrow from the ones place",
+        "5.0 - 2.7: Start from the right. 0 - 7 requires borrowing"
+      ]
+    },
+    {
+      "id": "DEC004",
+      "topic": "Decimals",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is 0.6 × 0.4?",
+      "expected_answer": "0.24",
+      "hints": [
+        "Multiply as if there were no decimals: 6 × 4 = 24",
+        "Count total decimal places (2) and put the decimal in the answer"
+      ]
+    },
+    {
+      "id": "DEC005",
+      "topic": "Decimals",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "Convert 0.75 to a fraction in simplest form.",
+      "expected_answer": "3/4",
+      "hints": [
+        "0.75 = 75/100",
+        "Simplify by dividing both by 25: 75/100 = 3/4"
+      ]
+    },
+    {
+      "id": "DEC006",
+      "topic": "Decimals",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "What is 3.6 ÷ 0.4?",
+      "expected_answer": "9",
+      "hints": [
+        "Move the decimal in both numbers to make the divisor a whole number",
+        "3.6 ÷ 0.4 = 36 ÷ 4 = 9"
+      ]
+    },
+    {
+      "id": "DEC007",
+      "topic": "Decimals",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "Round 3.4567 to two decimal places.",
+      "expected_answer": "3.46",
+      "hints": [
+        "Look at the third decimal place (6) to decide rounding",
+        "Since 6 ≥ 5, round the second decimal place up"
+      ]
+    },
+    {
+      "id": "DEC008",
+      "topic": "Decimals",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Which is smaller: 0.45 or 0.5?",
+      "expected_answer": "0.45",
+      "hints": [
+        "Compare by making them have the same decimal places",
+        "0.5 = 0.50, so compare 0.45 and 0.50"
+      ]
+    },
+    {
+      "id": "DEC009",
+      "topic": "Decimals",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "Convert 3/8 to a decimal.",
+      "expected_answer": "0.375",
+      "hints": [
+        "Divide the numerator by the denominator",
+        "3 ÷ 8 = 0.375"
+      ]
+    },
+    {
+      "id": "DEC010",
+      "topic": "Decimals",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "What is 2.5 × 1.2 × 0.4?",
+      "expected_answer": "1.2",
+      "hints": [
+        "Multiply step by step: first 2.5 × 1.2 = 3.0",
+        "Then 3.0 × 0.4 = 1.2"
+      ]
+    },
+    {
+      "id": "PERC001",
+      "topic": "Percentages",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 25% of 80?",
+      "expected_answer": "20",
+      "hints": [
+        "Convert 25% to a decimal: 25% = 0.25",
+        "Multiply: 0.25 × 80 = 20"
+      ]
+    },
+    {
+      "id": "PERC002",
+      "topic": "Percentages",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is 50% of 120?",
+      "expected_answer": "60",
+      "hints": [
+        "50% means half",
+        "Half of 120 is 60"
+      ]
+    },
+    {
+      "id": "PERC003",
+      "topic": "Percentages",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Convert 0.35 to a percentage.",
+      "expected_answer": "35%",
+      "hints": [
+        "To convert a decimal to a percentage, multiply by 100",
+        "0.35 × 100 = 35%"
+      ]
+    },
+    {
+      "id": "PERC004",
+      "topic": "Percentages",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is 15% of 200?",
+      "expected_answer": "30",
+      "hints": [
+        "Convert 15% to decimal: 0.15",
+        "0.15 × 200 = 30"
+      ]
+    },
+    {
+      "id": "PERC005",
+      "topic": "Percentages",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "A shirt costs $40 and is on sale for 20% off. What is the sale price?",
+      "expected_answer": "$32",
+      "hints": [
+        "First find 20% of $40: 0.20 × 40 = $8",
+        "Subtract the discount: $40 - $8 = $32"
+      ]
+    },
+    {
+      "id": "PERC006",
+      "topic": "Percentages",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "What percentage is 15 out of 60?",
+      "expected_answer": "25%",
+      "hints": [
+        "Divide 15 by 60: 15/60 = 0.25",
+        "Convert to percentage: 0.25 × 100 = 25%"
+      ]
+    },
+    {
+      "id": "PERC007",
+      "topic": "Percentages",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "A price increased from $50 to $65. What is the percentage increase?",
+      "expected_answer": "30%",
+      "hints": [
+        "Find the increase: $65 - $50 = $15",
+        "Divide by original: 15/50 = 0.30 = 30%"
+      ]
+    },
+    {
+      "id": "PERC008",
+      "topic": "Percentages",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Convert 3/4 to a percentage.",
+      "expected_answer": "75%",
+      "hints": [
+        "First convert to decimal: 3 ÷ 4 = 0.75",
+        "Then multiply by 100: 0.75 × 100 = 75%"
+      ]
+    },
+    {
+      "id": "PERC009",
+      "topic": "Percentages",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "If you score 18 out of 24 on a test, what is your percentage score?",
+      "expected_answer": "75%",
+      "hints": [
+        "Divide: 18 ÷ 24 = 0.75",
+        "Convert to percentage: 0.75 × 100 = 75%"
+      ]
+    },
+    {
+      "id": "PERC010",
+      "topic": "Percentages",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "A population grew from 1000 to 1250. What is the percentage growth?",
+      "expected_answer": "25%",
+      "hints": [
+        "Find the increase: 1250 - 1000 = 250",
+        "Divide by original: 250/1000 = 0.25 = 25%"
+      ]
+    },
+    {
+      "id": "GEO001",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+      "expected_answer": "40 sq cm",
+      "hints": [
+        "Area of rectangle = length × width",
+        "8 × 5 = 40 square centimeters"
+      ]
+    },
+    {
+      "id": "GEO002",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is the perimeter of a square with side length 6 cm?",
+      "expected_answer": "24 cm",
+      "hints": [
+        "Perimeter of a square = 4 × side length",
+        "4 × 6 = 24 cm"
+      ]
+    },
+    {
+      "id": "GEO003",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "What is the area of a square with side length 7 cm?",
+      "expected_answer": "49 sq cm",
+      "hints": [
+        "Area of a square = side × side",
+        "7 × 7 = 49 square centimeters"
+      ]
+    },
+    {
+      "id": "GEO004",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is the area of a triangle with base 10 cm and height 6 cm?",
+      "expected_answer": "30 sq cm",
+      "hints": [
+        "Area of triangle = (1/2) × base × height",
+        "(1/2) × 10 × 6 = 30 square centimeters"
+      ]
+    },
+    {
+      "id": "GEO005",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "What is the circumference of a circle with radius 7 cm? (Use π = 22/7)",
+      "expected_answer": "44 cm",
+      "hints": [
+        "Circumference = 2 × π × radius",
+        "2 × (22/7) × 7 = 44 cm"
+      ]
+    },
+    {
+      "id": "GEO006",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "What is the area of a circle with radius 7 cm? (Use π = 22/7)",
+      "expected_answer": "154 sq cm",
+      "hints": [
+        "Area of circle = π × radius²",
+        "(22/7) × 7 × 7 = 154 square centimeters"
+      ]
+    },
+    {
+      "id": "GEO007",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "Find the hypotenuse of a right triangle with legs 3 cm and 4 cm.",
+      "expected_answer": "5 cm",
+      "hints": [
+        "Use Pythagorean theorem: a² + b² = c²",
+        "3² + 4² = 9 + 16 = 25. √25 = 5"
+      ]
+    },
+    {
+      "id": "GEO008",
+      "topic": "Geometry",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "How many degrees are in a right angle?",
+      "expected_answer": "90",
+      "hints": [
+        "A right angle forms an 'L' shape",
+        "It's exactly one quarter of a full rotation"
+      ]
+    },
+    {
+      "id": "GEO009",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "What is the sum of interior angles in a triangle?",
+      "expected_answer": "180 degrees",
+      "hints": [
+        "This is a fundamental property of all triangles",
+        "The three angles always add up to 180°"
+      ]
+    },
+    {
+      "id": "GEO010",
+      "topic": "Geometry",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "What is the volume of a cube with side length 4 cm?",
+      "expected_answer": "64 cubic cm",
+      "hints": [
+        "Volume of a cube = side × side × side",
+        "4 × 4 × 4 = 64 cubic centimeters"
+      ]
+    },
+    {
+      "id": "ALG001",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Solve for x: x + 5 = 12",
+      "expected_answer": "7",
+      "hints": [
+        "Subtract 5 from both sides",
+        "x + 5 - 5 = 12 - 5, so x = 7"
+      ]
+    },
+    {
+      "id": "ALG002",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "Solve for x: x - 3 = 8",
+      "expected_answer": "11",
+      "hints": [
+        "Add 3 to both sides",
+        "x - 3 + 3 = 8 + 3, so x = 11"
+      ]
+    },
+    {
+      "id": "ALG003",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "Solve for x: 2x + 3 = 11",
+      "expected_answer": "4",
+      "hints": [
+        "First subtract 3 from both sides: 2x = 8",
+        "Then divide both sides by 2: x = 4"
+      ]
+    },
+    {
+      "id": "ALG004",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "grade_level": "5-7",
+      "prompt": "Solve for x: 3x = 15",
+      "expected_answer": "5",
+      "hints": [
+        "Divide both sides by 3",
+        "3x ÷ 3 = 15 ÷ 3, so x = 5"
+      ]
+    },
+    {
+      "id": "ALG005",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "Solve for x: 4x - 7 = 13",
+      "expected_answer": "5",
+      "hints": [
+        "Add 7 to both sides: 4x = 20",
+        "Divide by 4: x = 5"
+      ]
+    },
+    {
+      "id": "ALG006",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "grade_level": "6-8",
+      "prompt": "Solve for x: 2(x + 3) = 14",
+      "expected_answer": "4",
+      "hints": [
+        "First divide both sides by 2: x + 3 = 7",
+        "Then subtract 3: x = 4"
+      ]
+    },
+    {
+      "id": "ALG007",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "Solve for x: 3x + 2 = 2x + 7",
+      "expected_answer": "5",
+      "hints": [
+        "Get all x terms on one side: 3x - 2x = 7 - 2",
+        "Simplify: x = 5"
+      ]
+    },
+    {
+      "id": "ALG008",
+      "topic": "Algebra",
+      "difficulty": "easy",
+      "grade_level": "5-6",
+      "prompt": "If y = 3, what is 2y + 4?",
+      "expected_answer": "10",
+      "hints": [
+        "Substitute 3 for y",
+        "2(3) + 4 = 6 + 4 = 10"
+      ]
+    },
+    {
+      "id": "ALG009",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "grade_level": "6-7",
+      "prompt": "Simplify: 3x + 2x + 5",
+      "expected_answer": "5x + 5",
+      "hints": [
+        "Combine like terms (the x terms)",
+        "3x + 2x = 5x, so the answer is 5x + 5"
+      ]
+    },
+    {
+      "id": "ALG010",
+      "topic": "Algebra",
+      "difficulty": "hard",
+      "grade_level": "7-8",
+      "prompt": "Solve for x: x/4 = 3",
+      "expected_answer": "12",
+      "hints": [
+        "Multiply both sides by 4 to isolate x",
+        "x = 3 × 4 = 12"
+      ]
+    }
+  ]
+}
